@@ -102,7 +102,7 @@ def data_pro(src, x1, y1, x2, y2):
     ROI = image_[x1:x2, y1:y2]
 
     # New size
-    size = (48, 48)
+    size = (28, 28)
 
     # Resize image
     image = cv2.resize(image_, size)
