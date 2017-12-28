@@ -21,13 +21,13 @@ This project can help you make .pkl files from pictures and use TensorFlow to cl
 
 You can install missing dependencies with [pip](https://pip.pypa.io/en/stable/ "pip"). And install TensorFlow via [TensorFlow](https://www.tensorflow.org/install/ "TensorFlow") link.
 
-# Required directory structure needed to create your own dataset:
+# Required directory structure needed to create your own dataset
 
 ![Required directory structure needed to create your own dataset](https://raw.githubusercontent.com/whoisraibolt/Tensorflow-With-Own-Data/master/000.png)
 
 dataset.zip contains pictures and .txt files which contains picture's path and labels.
 
-# The directory structure for our project:
+# The directory structure for our project
 
 We created a dateP module to keep our code organized, and inside the dateP module we created dateP.py which provides a method for reading images and labels, then write them both in the .pkl file.
 
@@ -40,7 +40,7 @@ We created a new file named makedata.py that opens and saves our dataset in .pkl
 1. Install the dependencies;
 2. Open terminal and run makedata.py file.
 
-# Other information:
+# Other information
 
 The dataset.pkl.gz file is already the converted file for use in TensorFlow.
 
