@@ -42,7 +42,7 @@ We created a new file named makedata.py that opens and saves our dataset in .pkl
 
 # Other information
 
-The dataset.pkl.gz file is already the converted file for use in TensorFlow.
+The .pkl.gz file is already the converted file for use in TensorFlow.
 
 The unpack.py file is used to unpack .pkl files and to plot some pictures on the screen.
 
