@@ -1,17 +1,17 @@
+#!/usr/bin/python
 # coding: utf-8
 
 # Imports
+from sklearn.externals import joblib
 import gzip # gzip is only needed if the file is compressed
 import matplotlib.pyplot as plt
-import pickle
 
 # Un-pickle de data
-with gzip.open('dataset.pkl.gz', 'rb') as f:
-    train_set, test_set = pickle.load(f)
+with gzip.open('dataset-training-set.pkl.gz', 'rb') as f:
+    data, _ = joblib.load(f)
 
-train = train_set
-test = test_set
+data_ = data
 
 # Example to plot some images
-plt.imshow(train[0].reshape((28, 28)), cmap='gray')
+plt.imshow(data_[0].reshape((48, 48)), cmap='gray')
 plt.show()
