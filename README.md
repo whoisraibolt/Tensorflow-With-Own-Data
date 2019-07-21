@@ -1,5 +1,10 @@
 # TensorFlow With Own Data
 
+![GitHub language count](https://img.shields.io/github/languages/count/whoisraibolt/Tensorflow-With-Own-Data.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/whoisraibolt/Tensorflow-With-Own-Data.svg)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/whoisraibolt/Tensorflow-With-Own-Data.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/whoisraibolt/Tensorflow-With-Own-Data.svg)
+
 CNN classification with TensorFlow, make .pkl files from pictures and read it.
 
 ## Overview
